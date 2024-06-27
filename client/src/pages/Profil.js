@@ -1,0 +1,18 @@
+import React from "react";
+import Log from '../components/Log/Index'
+
+
+const Profil = () => {
+  return (
+    <div className="profil-page">
+        <div className="log-container">
+          <Log />
+          <div className="img-container">
+            <img src="./img/log.svg" alt="img-log" />
+          </div>
+        </div>
+    </div>
+  );
+};
+
+export default Profil;
