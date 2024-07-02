@@ -488,6 +488,14 @@ nav .nav-container ul li img {
 }
 .card-container .card-right .comment-container .comment-header .pseudo span {
   transform: translateX(6px);
+  transform: translateY(4px);
+  margin-left: 5px;
+  cursor: pointer;
+}
+.card-container .card-right .comment-container .comment-header .pseudo span img {
+  box-shadow: none;
+  height: 15px;
+  width: 15px;
 }
 .card-container .card-right .comment-container .comment-header span {
   font-size: 0.9rem;

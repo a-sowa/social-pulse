@@ -245,6 +245,15 @@
           }
           span {
             transform: translateX(6px);
+            transform: translateY(4px);
+            margin-left: 5px;
+            cursor: pointer;
+
+            img {
+                box-shadow: none;
+                height: 15px;
+                width: 15px;
+            }
           }
         }
 
