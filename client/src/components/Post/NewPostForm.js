@@ -22,11 +22,28 @@ const NewPostForm = () => {
     setFile("");
   };
 
+  const handleVideo = () => {
+    let findLink = message.split(" ");
+    for (let i = 0; i < findLink.length; i++) {
+      if (
+        findLink[i].includes("https://www.yout") ||
+        findLink[i].includes("https://yout")
+      ) {
+        let embed = findLink[i].replace("watch?v=", "embed/");
+        setVideo(embed.split("&")[0]);
+        findLink.splice(i, 1);
+        setMessage(findLink.join(" "));
+        setPostPicture('');
+      }
+    }
+  };
+
   useEffect(() => {
     if (!isEmpty(userData)) {
       setIsLoading(false);
     }
-  }, [userData]);
+    handleVideo();
+  }, [userData, message, video]);
 
   return (
     <div className="post-container">
