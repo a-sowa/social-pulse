@@ -4,6 +4,7 @@ import Thread from "../components/Thread.js";
 import { UidContext } from "../components/AppContext.js";
 import NewPostForm from "../components/Post/NewPostForm.js";
 import Log from "../components/Log/Index.js";
+import Trends from "../components/Trends.js";
 
 const Home = () => {
   const uid = useContext(UidContext);
@@ -15,6 +16,13 @@ const Home = () => {
         {uid ? <NewPostForm /> : <Log signin={true} signup={false} />}
         </div>
         <Thread />
+      </div>
+      <div className="right-side">
+        <div className="right-side-container">
+            <div className="wrapper">
+                <Trends />
+            </div>
+        </div>
       </div>
     </div>
   );

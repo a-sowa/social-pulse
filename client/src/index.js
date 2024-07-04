@@ -9,6 +9,7 @@ import logger from 'redux-logger';
 import {thunk} from 'redux-thunk';
 import rootReducer from './reducers'
 import { getUsers } from './actions/users.actions';
+import { getPosts } from './actions/post.action';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const store = createStore(
@@ -16,6 +17,7 @@ const store = createStore(
 );
 
 store.dispatch(getUsers());
+store.dispatch(getPosts());
 
 root.render(
     <Provider store={store}>
