@@ -164,16 +164,18 @@
         .cancel {
           border-radius: 20px;
           margin-right: 8px;
-          background: $white;
+          background: $color-2;
 
           &:hover {
-            color: $color-4;
-            background: $color-3;
+            color: $color-2;
+            background: $color-4;
+            border: 2px solid $color-2;
           }
         }
         .send {
           &:hover {
             letter-spacing: 2px;
+            border: 2px solid $color-2;
           }
         }
         button {
