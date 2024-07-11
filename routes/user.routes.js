@@ -20,6 +20,6 @@ router.delete('/:id', userController.deleteUser);
 router.patch('/follow/:id', userController.follow);
 router.patch('/unfollow/:id', userController.unfollow);
 
-router.post('/upload', upload.single('file'), fileValidationMiddleware, uploadController.uploadProfil);
+router.post('/upload', upload.single('file'), uploadController.uploadProfil);
 
 export default router;
