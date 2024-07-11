@@ -40,5 +40,5 @@ app.use('/api/post', postRoutes);
 
 // Server
 app.listen(process.env.PORT, () =>
-  console.log(`Example app listening on port ${process.env.PORT}!`),
+  console.log(`Social Pulse listening on port ${process.env.PORT}!`),
 );
