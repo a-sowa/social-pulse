@@ -1,4 +1,3 @@
-```markdown
 # Project Name: Social Pulse
 
 ## Introduction:
@@ -39,7 +38,6 @@ We welcome contributions to Social Pulse! If you want to contribute, please fork
 
 ## Licensing:
 This project is licensed under the Holberton school license.
-```
 
 ## created by
 Axel Sowa: https://www.linkedin.com/in/axel-sowa/ and Nolan Binet: https://www.linkedin.com/in/nolan-binet-721687276/
