@@ -7,28 +7,28 @@ Social Pulse is a Node.js application designed to analyze and visualize social m
 To install Social Pulse, you can use either npm or Yarn. Choose one of the following methods:
 
 ### Using npm:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Using Yarn:
-\`\`\`bash
+```bash
 yarn install
-\`\`\`
+```
 
 ## Usage:
 To start server, use the following command:
 
-\`\`\`bash
+```bash
 cd social-pulse
 npm start
-\`\`\`
+```
 
 then to start the app
-\`\`\`bash
+```bash
 cd client
 npm start
-\`\`\`
+```
 
 ## Contributing:
 We welcome contributions to Social Pulse! If you want to contribute, please fork the repository and submit a pull request with your changes. Make sure to follow the code of conduct.
